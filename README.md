@@ -17,13 +17,18 @@ pip install -r requirements.txt
 # Usage
 Prepare Images: Place your images in a folder (e.g., input_images).
 
-Run: 
-python gaussian_splatting.py  
+To open the notebook run:
+
+jupyter notebook  
+
+Open the file gaussian_splatting.ipynb in the Jupyter Notebook interface.
+
+Run the Notebook:
+Execute all cells in order.
 
 Outputs:
 Splatted Point Cloud: Saved as .ply file in the output directory.
-
-Visualizations: Displayed and saved as .png files.
+Visualizations: Displayed inline and saved as .png files in the output directory.
 
 # Implementation Details
 Key Components
