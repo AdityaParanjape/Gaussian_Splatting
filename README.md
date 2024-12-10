@@ -61,3 +61,7 @@ Splatted Point Cloud: output/gaussian_splatted_point_cloud.ply
 Feature Files: .npz files for each image.
 
 Visualizations: Raw 3D points and Gaussian splatted outputs.
+
+Feature matching output: [Feature matching](feature_matching.png)
+
+Static point cloud: [Static point cloud](static_point_cloud.png)
