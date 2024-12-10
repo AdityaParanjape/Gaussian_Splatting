@@ -22,6 +22,7 @@ python gaussian_splatting.py
 
 Outputs:
 Splatted Point Cloud: Saved as .ply file in the output directory.
+
 Visualizations: Displayed and saved as .png files.
 
 # Implementation Details
@@ -29,10 +30,10 @@ Key Components
 Feature Detection and Matching:
 Extracts keypoints using SIFT and matches features with a ratio test.
 
-3D Reconstruction:
+# 3D Reconstruction:
 
-Computes essential matrices and camera poses.
-Triangulates 3D points from matched image features.
+Computes essential matrices and camera poses. Triangulates 3D points from matched image features.
+
 Gaussian Splatting:
 
 Maps 3D points into a voxel grid.
@@ -51,5 +52,7 @@ def process_point_cloud(points_3d):
 
 # Results
 Splatted Point Cloud: output/gaussian_splatted_point_cloud.ply
+
 Feature Files: .npz files for each image.
+
 Visualizations: Raw 3D points and Gaussian splatted outputs.
