@@ -2,9 +2,13 @@
 This project implements Gaussian Splatting, a technique to process 3D point clouds by mapping them to a voxel grid and applying Gaussian filters for density representation.
 
 # Features
-Feature Extraction: Detects keypoints and descriptors using SIFT.
+Feature Extraction: Detects keypoints and descriptors using SIFT. 
+
 3D Reconstruction: Triangulates points from image pairs using essential matrices.
+
+
 Gaussian Splatting: Maps 3D points to voxel grids and applies Gaussian smoothing.
+
 Visualization: Exports splatted 3D point clouds and generates visualizations.
 
 # Requirements
