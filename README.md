@@ -65,3 +65,5 @@ Visualizations: Raw 3D points and Gaussian splatted outputs.
 Feature matching output: [Feature matching](feature_matching.png)
 
 Static point cloud: [Static point cloud](static_point_cloud.png)
+
+The code also generates a 3d dynamic point cloud, stored as a .ply file. Here I have attached a screenshot of the same. To view its 3d render open the generated .ply file locally.
