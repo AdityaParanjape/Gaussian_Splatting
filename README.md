@@ -47,12 +47,12 @@ Applies Gaussian filtering for density representation.
 Code snippet:
 
 def process_point_cloud(points_3d):  
-    grid_size = 1024  
-    grid = np.zeros((grid_size, grid_size, grid_size))  
-    voxel_coords = (points_3d * (grid_size - 1)).astype(int)  
-    for point in voxel_coords:  
-        grid[point[0], point[1], point[2]] += 1  
-    return gaussian_filter(grid, sigma=1.0)  
+        grid_size = 1024  
+        grid = np.zeros((grid_size, grid_size, grid_size))  
+        voxel_coords = (points_3d * (grid_size - 1)).astype(int)  
+        for point in voxel_coords:  
+            grid[point[0], point[1], point[2]] += 1  
+        return gaussian_filter(grid, sigma=1.0)  
 
 
 # Results
