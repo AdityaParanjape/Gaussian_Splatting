@@ -32,6 +32,7 @@ Execute all cells in order.
 
 Outputs:
 Splatted Point Cloud: Saved as .ply file in the output directory.
+
 Visualizations: Displayed inline and saved as .png files in the output directory.
 
 # Implementation Details
